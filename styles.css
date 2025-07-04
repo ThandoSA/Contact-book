@@ -1,0 +1,267 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+}
+
+/* Table Container */
+#table {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 1rem;
+}
+
+/* Contact Table */
+#table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table tr {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#table tr:hover {
+    background-color: #f0f0f5;
+}
+
+#table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+
+#table img {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+/* Contact Names */
+#table h5 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Buttons */
+button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004999;
+}
+
+/* Responsive Table */
+@media (max-width: 600px) {
+    #table td {
+        display: block;
+        width: 100%;
+    }
+
+    #table tr {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    #table table {
+        display: block;
+    }
+}
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    padding: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+/* Avatar styling */
+#avatarImage {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#avatarImage img {
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form#editform {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004999;
+}
+
+button[hidden] {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    form#editform {
+        padding: 1.2rem;
+    }
+
+    #avatarImage img {
+        width: 120px;
+    }
+}
+
+#searchBox {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    padding: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+/* Form container */
+form#editform {
+    max-width: 500px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Input styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    margin: 0.5rem auto;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: #004999;
+}
+
+/* Align home button */
+#homeLink {
+    margin: 1rem auto;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    form#editform {
+        padding: 1.2rem;
+    }
+}
